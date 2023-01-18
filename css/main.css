@@ -21,7 +21,7 @@
 }
 .menu-list{ 
     text-decoration: none;
-
+    list-style: none;
 }
 
 body {
@@ -44,6 +44,32 @@ body {
     font-weight: 500;
     cursor: pointer;
 }
+
+/* ---------------------------STRATEGY-------------------- */
+
+.section-description-theme-dark {
+    color: #e7e9fc;
+  }
+  .section-description-theme-light {
+    color: #434455;
+  }
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+
+/* -----------------------HHEADER---------------- */
+
+
 .logo-link {
     font-family: "Raleway";
     font-weight: 800;
@@ -81,7 +107,7 @@ body {
 
 
 
-    /* herois                                   herois */
+    /* herois ==================================    herois */
 
     .hero {
         background-color: var(--accent-color);
@@ -111,6 +137,7 @@ body {
       /* =================================== TEAM ===================================*/
 .team {
     background: var(--background-light-color);
+    font-style: normal;
   }
   
   
